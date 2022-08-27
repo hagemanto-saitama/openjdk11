@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  openjdk11:
+    container_name: openjdk11
+    image: openjdk:11.0.9.1-jdk
+    tty: true
+    volumes:
+      # 作業ディレクトリ
+      - ./test:/root/test
+    working_dir: /root/test
