@@ -6,5 +6,5 @@ services:
     tty: true
     volumes:
       # 作業ディレクトリ
-      - ./test:/root/test
-    working_dir: /root/test
+      - ../work:/root/work
+    working_dir: /root/work
